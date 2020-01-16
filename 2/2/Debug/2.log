@@ -1,0 +1,16 @@
+﻿  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27034 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt "源.cpp"
+  
+  源.cpp
+f:\github\leetcode\2\2\源.cpp(64): error C2079: “ss”使用未定义的 class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”
+f:\github\leetcode\2\2\源.cpp(68): error C2672: “getline”: 未找到匹配的重载函数
+f:\github\leetcode\2\2\源.cpp(68): error C2780: “std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)”: 应输入 2 个参数，却提供了 3 个
+  d:\vs\vc\tools\msvc\14.16.27023\include\string(160): note: 参见“std::getline”的声明
+f:\github\leetcode\2\2\源.cpp(68): error C2784: “std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)”: 未能从“int”为“std::basic_istream<_Elem,_Traits> &”推导 模板 参数
+  d:\vs\vc\tools\msvc\14.16.27023\include\string(149): note: 参见“std::getline”的声明
+f:\github\leetcode\2\2\源.cpp(68): error C2780: “std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)”: 应输入 2 个参数，却提供了 3 个
+  d:\vs\vc\tools\msvc\14.16.27023\include\string(129): note: 参见“std::getline”的声明
+f:\github\leetcode\2\2\源.cpp(68): error C2784: “std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)”: 未能从“int”为“std::basic_istream<_Elem,_Traits> &&”推导 模板 参数
+  d:\vs\vc\tools\msvc\14.16.27023\include\string(76): note: 参见“std::getline”的声明
