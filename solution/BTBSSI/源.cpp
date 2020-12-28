@@ -1,4 +1,5 @@
 #include<vector>
+<<<<<<< HEAD
 #include<stack>
 #include <algorithm>
 using namespace std;
@@ -96,3 +97,14 @@ using namespace std;
 //	int r = maxProfit(i, v);
 //	i = 0;
 //}
+=======
+
+using namespace std;
+int maxProfit(int k, vector<int>& prices) {
+	vector<int> profils;
+	for (int i = 0; i < prices.size()-1; i++) {
+		profils.push_back(prices[i + 1] - prices[i]);
+	}
+	
+}
+>>>>>>> 3c0a6bc0bf4b697abd9ae97f94f3b770888c5da4
