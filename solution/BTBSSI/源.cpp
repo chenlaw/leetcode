@@ -1,5 +1,4 @@
 #include<vector>
-<<<<<<< HEAD
 #include<stack>
 #include <algorithm>
 using namespace std;
@@ -97,14 +96,53 @@ using namespace std;
 //	int r = maxProfit(i, v);
 //	i = 0;
 //}
-=======
-
+#include <iostream>
+#include <chrono>
+#include <thread>
 using namespace std;
-int maxProfit(int k, vector<int>& prices) {
-	vector<int> profils;
-	for (int i = 0; i < prices.size()-1; i++) {
-		profils.push_back(prices[i + 1] - prices[i]);
-	}
-	
+using namespace chrono;
+// O(n)
+void function1(long long n) {
+    long long k = 0;
+    for (long long i = 0; i < n; i++) {
+        k++;
+    }
 }
->>>>>>> 3c0a6bc0bf4b697abd9ae97f94f3b770888c5da4
+
+// O(n^2)
+void function2(long long n) {
+    long long k = 0;
+    for (long long i = 0; i < n; i++) {
+        for (long j = 0; j < n; j++) {
+            k++;
+        }
+    }
+
+}
+// O(nlogn)
+void function3(long long n) {
+    long long k = 0;
+    for (long long i = 0; i < n; i++) {
+        for (long long j = 1; j < n; j = j * 2) { // 注意这里j=1
+            k++;
+        }
+    }
+}
+int main() {
+    long long n; // 数据规模
+    while (1) {
+        cout << "输入n：";
+        cin >> n;
+        milliseconds start_time = duration_cast<milliseconds>(
+            system_clock::now().time_since_epoch()
+            );
+        function1(n);
+        //        function2(n);
+        //        function3(n);
+        milliseconds end_time = duration_cast<milliseconds>(
+            system_clock::now().time_since_epoch()
+            );
+        cout << "耗时:" << milliseconds(end_time).count() - milliseconds(start_time).count()
+            << " ms" << endl;
+    }
+}
