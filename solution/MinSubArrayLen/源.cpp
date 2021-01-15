@@ -1,7 +1,31 @@
 ﻿#include<vector>
+#include<string>
 using namespace std;
 //给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
 
+
+
+vector<vector<int>> largeGroupPositions(string s) {
+	vector<vector<int>> v;
+	int i = 0, j = 1;
+	int l = 3;
+	char tmp = s.at(i);
+	if (s.length() < 3)
+		return v;
+	s += '1';
+	while (j < s.length()) {
+		if (s.at(j) != tmp) {
+			if (j - i >= l) {
+				v.push_back(vector<int>{ i, j - 1});
+			}
+			i = j;
+			tmp = s.at(i);
+			j = i + 1;
+		}
+		j++;
+	}
+	return v;
+}
 //双指针法O(N)
 int minSubArrayLen(int s, vector<int>& nums) {
 	int l = nums.size();
@@ -23,7 +47,7 @@ int minSubArrayLen(int s, vector<int>& nums) {
 	return min;
 }
 int main() {
-	int s = 7;
-	vector<int> nums = { 2, 3, 1, 2, 4, 3 };
-	int min = minSubArrayLen(s, nums);
+	string s = "abcdddeeeeaabbbcd";
+	vector<vector<int>> v=largeGroupPositions(s);
+
 }
