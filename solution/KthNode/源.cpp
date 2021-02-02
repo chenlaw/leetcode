@@ -3,14 +3,22 @@
 #include<string>
 #include<stack>
 using namespace std;
-struct TreeNode {
+class TreeNode {
+public:
     int val;
     struct TreeNode* left;
     struct TreeNode* right;
     TreeNode(int x) :
         val(x), left(NULL), right(NULL) {
     }
+    TreeNode operator+( TreeNode* s) {
+
+    }
+    friend TreeNode operator+(TreeNode* f, int s) {
+
+}
 };
+
 void InOrder(TreeNode* t, vector<TreeNode*>& trees) {
     if (t == NULL)
         return;

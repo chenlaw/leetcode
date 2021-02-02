@@ -1,5 +1,9 @@
 ﻿#include<vector>
 #include<string>
+#include<queue>
+#include<stack>
+#include<unordered_set>
+#include<unordered_map>
 using namespace std;
 //给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
 
@@ -49,5 +53,10 @@ int minSubArrayLen(int s, vector<int>& nums) {
 int main() {
 	string s = "abcdddeeeeaabbbcd";
 	vector<vector<int>> v=largeGroupPositions(s);
+	vector<int> g = {3,4,5,1,2};
+	auto c=max(g.begin(), g.end());
+	unordered_set<int> cs;
+	cs.emplace(3);
+	auto r=cs.find(-1);
 
 }

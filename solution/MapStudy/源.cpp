@@ -5,6 +5,7 @@
 #include<map>
 #include <utility>
 #include<unordered_map>
+#include<unordered_set>
 using namespace std;
 int main() {
 
@@ -13,9 +14,11 @@ int main() {
 	s["happy"] = 4;
 	int res= s["happy"];
 	cout<<(res);
-	switch ("a") {
-	case "a":
-		isdigit()
-	}
+	unordered_set<int> ss;
+	ss.insert(2);
+	ss.insert(2);
+	ss.insert(4);
+	cout << ss.size();
+
 
 }

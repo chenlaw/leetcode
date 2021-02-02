@@ -1,5 +1,6 @@
 #include<vector>
 #include<stack>
+#include<string>
 #include <algorithm>
 using namespace std;
 int searchInsert(vector<int>& nums, int target) {
@@ -21,4 +22,6 @@ int main() {
 	int target = 0;
 	vector<int> v = { 1,3,5,6 };
 	int pos = searchInsert(v, target);
+	string s = "AsdfA";
+	s=s.substr(0, 0);
 }
