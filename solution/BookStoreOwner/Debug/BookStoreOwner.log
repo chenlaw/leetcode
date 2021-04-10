@@ -1,4 +1,0 @@
-﻿  源.cpp
-C:\Users\chen\source\repos\leetcode\solution\BookStoreOwner\源.cpp(37,23): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\chen\source\repos\leetcode\solution\BookStoreOwner\源.cpp(50,13): warning C4326: “main”的返回类型应为“int”而非“void”
-  BookStoreOwner.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\BookStoreOwner.exe

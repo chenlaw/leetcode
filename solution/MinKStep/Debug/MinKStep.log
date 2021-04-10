@@ -1,6 +1,0 @@
-﻿  源.cpp
-C:\Users\chen\source\repos\leetcode\solution\MinKStep\源.cpp(90,15): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\chen\source\repos\leetcode\solution\MinKStep\源.cpp(104,15): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\chen\source\repos\leetcode\solution\MinKStep\源.cpp(110,22): warning C4806: “^”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
-C:\Users\chen\source\repos\leetcode\solution\MinKStep\源.cpp(110,25): warning C4554: “^”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
-  MinKStep.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\MinKStep.exe

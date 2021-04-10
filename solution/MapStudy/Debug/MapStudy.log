@@ -1,2 +1,30 @@
 ﻿  源.cpp
+<<<<<<< HEAD
   MapStudy.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\MapStudy.exe
+=======
+<<<<<<< HEAD
+  MapStudy.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\MapStudy.exe
+=======
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\xhash(1087,21): error C2100: 非法的间接寻址
+C:\Users\chen\source\repos\leetcode\solution\MapStudy\源.cpp(11): message : 查看对正在编译的函数 模板 实例化“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<int>(_Iter,_Iter)”的引用
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Hasher=std::hash<int>,
+              _Keyeq=std::equal_to<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+C:\Users\chen\source\repos\leetcode\solution\MapStudy\源.cpp(11): message : 查看对正在编译的函数 模板 实例化“void std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::insert<int>(_Iter,_Iter)”的引用
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Hasher=std::hash<int>,
+              _Keyeq=std::equal_to<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=int
+          ]
+>>>>>>> 244b5e8aafcfb6bb265d595d207a78fee59a89f2
+>>>>>>> 3c0a6bc0bf4b697abd9ae97f94f3b770888c5da4
