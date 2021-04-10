@@ -1,0 +1,12 @@
+﻿  源.cpp
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(12,15): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(16,15): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(49,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(55,24): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(104,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(115,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(124,34): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(142,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(195,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\WiggleSubsequence\源.cpp(220,13): warning C4326: “main”的返回类型应为“int”而非“void”
+  WiggleSubsequence.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\WiggleSubsequence.exe

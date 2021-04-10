@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\chen\source\repos\leetcode\solution\PalindromePartitioning\源.cpp(86,15): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\PalindromePartitioning\源.cpp(98,18): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\PalindromePartitioning\源.cpp(103,23): warning C4018: “<=”: 有符号/无符号不匹配
+  PalindromePartitioning.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\PalindromePartitioning.exe

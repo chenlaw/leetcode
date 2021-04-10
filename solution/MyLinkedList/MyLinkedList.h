@@ -41,6 +41,10 @@ public:
         h->next = new Node(val);
         len++;
     }
+    void  operator =(const MyLinkedList* l) {
+
+
+    }
 
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) {

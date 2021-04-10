@@ -1,0 +1,3 @@
+﻿  源.cpp
+C:\Users\chen\source\repos\leetcode\solution\Palindromatic\源.cpp(16,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\Palindromatic\源.cpp(34,15): error C2440: “初始化”: 无法从“int”转换为“int &”

@@ -1,0 +1,5 @@
+﻿  源.cpp
+C:\Users\chen\source\repos\leetcode\solution\Jie\源.cpp(27,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\Jie\源.cpp(40,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\chen\source\repos\leetcode\solution\Jie\源.cpp(43,22): warning C4018: “<”: 有符号/无符号不匹配
+  Jie.vcxproj -> C:\Users\chen\source\repos\leetcode\solution\Debug\Jie.exe
